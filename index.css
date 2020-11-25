@@ -70,6 +70,10 @@
     float: left;
     padding-top: 50px;
   }
+  .content__2 > h3{
+      float: top;
+      
+  }
   .content__1 > img{
       border-radius: 5px;
       box-shadow: 2px 2px 4px #333;
