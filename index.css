@@ -9,26 +9,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: auto;
   background-color: #333;
   padding: 10px;
-  padding-bottom: 0px ;
 }
 .logo > img {
-  width: 275px;
+  width: 400px;
   height: 80px;
-  padding-left: 40px;
+  padding-left: 50px;
   background-color: #333;
-  padding-bottom: 10px;
 }
 a {
   background-color: #333;
   text-decoration: none;
   color: white;
-  padding-right: 15px;
-  padding-left: 15px;
-  font-size: large;
-  border-right-color: #333;
+  padding: 10px;
+  font-size: 30px;
+  margin-right: 20px;
 }
 a:hover {
     padding: 5px;
@@ -37,18 +33,20 @@ a:hover {
     color: #000;
     transition: .5s;
 }
+.content__top {
+  padding-top: 50px;
+  display: flex;
+  margin: auto 40px;
+}
 .content1> h3{
-  float: top;
-  padding-top: 150px;
-  padding-bottom: 20px;
-  padding-left: 800px;
-  color: rgb(0, 0, 0);
-  text-transform: uppercase;
-  font-size: 40px;
+  color: black;
+  margin: 50px auto 30px auto;
+  text-align: left;
+  font-size: 50px;
 }
 .content1 > .para {
-    letter-spacing: 1.5px;
-    padding-left: 10px;
+    letter-spacing: 1.2px;
+    text-align: left;
     font-size: 30px;
     margin-right: 15px;
 }
@@ -62,11 +60,14 @@ a:hover {
   padding-bottom: 10px;
   cursor: pointer;
   border: none;
-  width: 10%;
+  width: 25%;
   float: left;
   margin-top: 30px;
   margin-left: 0px;
   font-size: 20px;
+}
+button:hover{
+  background: linear-gradient(to right, #ffffff, #3a2222);
 }
 .cars {
   padding-left: 20px;
@@ -75,21 +76,33 @@ a:hover {
   border-radius: 50%;
   padding-right: 100px;
   float: left;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 .content__mid > h3 {
-  padding-top: 150px;
-  padding-bottom: 20px;
-  color: rgb(0, 0, 0);
-  text-transform: uppercase;
-  font-size: 40px;
+  text-align: center;
+  margin: 20px auto;
+  color: black;
+  font-size: 70px;
 }
 .content__mid > .para {
-  font-size: 30px;
-  padding-bottom: 75px;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+.pictures {
+  display: flex;
+  margin: 40px;
+}
+.new {
+  margin: auto 80px auto 80px;
+}
+.used {
+  margin: auto 80px auto 80px;
+}
+.old {
+  margin: auto 80px auto 80px;
 }
 .new > img {
-  margin-left: 200px;
   height: 300px;
   width: 350px;
   border-style: solid;
@@ -99,13 +112,9 @@ a:hover {
   border-left-width: 25px;
   border-right-width: 25px;
   border-radius: 10%;
-  padding: top 0px;
-  float: left;
-  margin-right: none;
-  float: right;
+  margin-left: 20px;
 }
 .old > img {
-  margin-left: 1200px;
   height: 300px;
   width: 350px;
   border-style: solid;
@@ -115,21 +124,22 @@ a:hover {
   border-left-width: 25px;
   border-right-width: 25px;
   border-radius: 10%;
-  float: bottom;
-  margin-top: 0px;
-  margin-bottom: 40px;
-  display: block;
-  margin-right: 200px;
-  float: top;
 }
-.new{
-  float: left;
+.used >img{
+  height: 300px;
+  width: 350px;
+  border-style: solid;
+  border-color: rgb(172, 166, 166);
+  border-top-width: 50px;
+  border-bottom-width: 45px ;
+  border-left-width: 25px;
+  border-right-width: 25px;
+  border-radius: 10%;
 }
 .new > h4{
-  padding-left: 300px;
-  padding-top: 450px;
+  padding-left: 120px;
   font-size: 40px;
-  margin-right: 0px;
+  padding-top: 20px;
 }
 .new > img:hover{
     transition: .5s;
@@ -137,29 +147,41 @@ a:hover {
     box-shadow: 4px 4px 7px #333;
 }
 .old > h4{
-  padding-left: 1300px;
-  padding-top: 20px;
+  padding-left: 75px;
   font-size: 40px;
-  padding-right: 275px;
+  padding-top: 20px;
 }
 .old > img:hover{
   transition: .5s;
   cursor: pointer;
   box-shadow: 4px 4px 7px #333;
 }
-.content__bottom > img {
-  height: 450px;
-  width: 400;
-  float:left;
+.used > h4{
+  padding-left: 90px;
+  font-size: 40px;
+  padding-top: 20px;
+}
+.used > img:hover{
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: 4px 4px 7px #333;
+}
+.content__bottom {
   display: flex;
-  margin-left: 200px ;
-  padding-top: 100px;
-  margin-bottom: 30px;
+  margin: 200px 200px 100px 200px;
+}
+.content__bottom > img {
+  height: 550px;
+  width: 550px;
   border-radius: 50%;
-  margin-right: 90px;
+}
+.text {
+  margin-top: 0px;
+  text-align: left;
+  padding-left: 150px;
 }
 .text > h3 {
-  margin-right: 50px;
+  margin-right: 200px;
   padding-top: 60px;
   float: top;
   font-size: 80px;
@@ -167,7 +189,7 @@ a:hover {
 }
 .text > p {
   margin-right: 50px;
-  margin-top: 80px;
+  margin-top: 50px;
   font-size: 35px;
   padding-top: 5px;
   margin-bottom: 100px;
@@ -176,11 +198,8 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: auto;
   background-color: #333;
   padding: 10px;
-  padding-bottom: 2px ;
-  display: flex;
 }
 .credit > p{
   color: white;
@@ -189,6 +208,19 @@ a:hover {
   padding-left: 20px;
   background-color: #333;
   padding-top: 30px;
+}
+.footer__links {
+  margin: auto 40px;
+  text-align: justify;
+}
+.credit {
+  margin: auto 70px auto 90px;
+}
+.subscribe {
+  margin: auot 40px auto 60px;
+}
+.icons {
+  margin: auto 90px auto 70px;
 }
 .footer__links > h5{
   color: white;
@@ -201,9 +233,7 @@ a:hover {
   background-color: #333;
   text-decoration: none;
   color: white;
-  padding: 5px;
   font-size: large;
-  border-right-color: #333;
   display: block;
 }
 .footer__links > a:hover {
@@ -235,18 +265,12 @@ a:hover {
   text-align: center;
   color: white;
   background-color: #333;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: auto;
+  padding-right: auto;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: auto;
   height: 30%;
   font-size: 30px;
-}
-.icon{
-  padding-left: 0px;
-  padding-right: 10px;
-  padding-top: 0px;
-  background-color: #333;
 }
 .icons > h5{
   background-color: #333;
