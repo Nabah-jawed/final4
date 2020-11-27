@@ -12,10 +12,16 @@
   background-color: #333;
   padding: 10px;
 }
+.logo {
+  background-color: #333;
+}
 .logo > img {
   width: 400px;
   height: 80px;
   padding-left: 50px;
+  background-color: #333;
+}
+.link {
   background-color: #333;
 }
 a {
@@ -95,51 +101,63 @@ button:hover{
 }
 .new {
   margin: auto 80px auto 80px;
+  background-color: rgb(172, 166, 166) ;
+  border-style: solid;
+  border-color: rgb(172, 166, 166);
+  border-top-width: 50px;
+  border-bottom-width: 45px ;
+  border-left-width: 25px;
+  border-right-width: 25px;
+  border-radius: 10%;
+  display: block;
+  padding-left: 10px;
+  padding-right: 25px;
 }
 .used {
-  margin: auto 80px auto 80px;
+  margin: auto 80px auto 80px;background-color: rgb(172, 166, 166) ;
+  border-style: solid;
+  border-color: rgb(172, 166, 166);
+  border-top-width: 50px;
+  border-bottom-width: 45px ;
+  border-left-width: 35px;
+  border-right-width: 20px;
+  border-radius: 10%;
+  display: block;
+  padding-left: 10px;
+  padding-right: 25px;
 }
 .old {
   margin: auto 80px auto 80px;
-}
-.new > img {
-  height: 300px;
-  width: 350px;
+  background-color: rgb(172, 166, 166) ;
   border-style: solid;
   border-color: rgb(172, 166, 166);
   border-top-width: 50px;
   border-bottom-width: 45px ;
   border-left-width: 25px;
-  border-right-width: 25px;
+  border-right-width: 20px;
   border-radius: 10%;
+  display: block;
+  padding-left: 10px;
+  padding-right: 25px;
+}
+.new > img {
+  height: 350px;
+  width: 350px;
   margin-left: 20px;
 }
 .old > img {
-  height: 300px;
+  height: 350px;
   width: 350px;
-  border-style: solid;
-  border-color: rgb(172, 166, 166);
-  border-top-width: 50px;
-  border-bottom-width: 45px ;
-  border-left-width: 25px;
-  border-right-width: 25px;
-  border-radius: 10%;
 }
 .used >img{
-  height: 300px;
+  height: 350px;
   width: 350px;
-  border-style: solid;
-  border-color: rgb(172, 166, 166);
-  border-top-width: 50px;
-  border-bottom-width: 45px ;
-  border-left-width: 25px;
-  border-right-width: 25px;
-  border-radius: 10%;
 }
 .new > h4{
-  padding-left: 120px;
+  padding-left: 100px;
   font-size: 40px;
   padding-top: 20px;
+  background-color: rgb(172, 166, 166);
 }
 .new > img:hover{
     transition: .5s;
@@ -150,6 +168,7 @@ button:hover{
   padding-left: 75px;
   font-size: 40px;
   padding-top: 20px;
+  background-color: rgb(172, 166, 166);
 }
 .old > img:hover{
   transition: .5s;
@@ -157,9 +176,10 @@ button:hover{
   box-shadow: 4px 4px 7px #333;
 }
 .used > h4{
-  padding-left: 90px;
+  padding-left: 70px;
   font-size: 40px;
   padding-top: 20px;
+  background-color: rgb(172, 166, 166);
 }
 .used > img:hover{
     transition: .5s;
@@ -222,6 +242,9 @@ button:hover{
 .icons {
   margin: auto 90px auto 70px;
 }
+.footer__links {
+  background-color: #333;
+}
 .footer__links > h5{
   color: white;
   background-color: #333;
@@ -271,6 +294,9 @@ button:hover{
   padding-bottom: auto;
   height: 30%;
   font-size: 30px;
+}
+.icon {
+  background-color: #333;
 }
 .icons > h5{
   background-color: #333;
